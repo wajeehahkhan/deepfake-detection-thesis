@@ -24,8 +24,6 @@ Prerequisites:
     - Run frozen_layers_xception.py first to generate:
         ./checkpoints/xception_frozen_best.pth
 
-Author: Wajeeha Khan
-Institution: Tilburg University — MSc Data Science & Society 2026
 """
 
 import os
