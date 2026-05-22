@@ -35,8 +35,6 @@ Outputs:
     - ~/results/pixel_intensity_results.csv — per-image pixel stats + error flags
       Use plot_pixel_intensity.py to visualise the results
 
-Author: Wajeeha Khan
-Institution: Tilburg University — MSc Data Science & Society 2026
 """
 
 import csv
