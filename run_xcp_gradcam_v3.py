@@ -35,8 +35,6 @@ Prerequisites:
 Outputs:
     - ~/results/gradcam/xcp_*.png — XceptionNet Grad-CAM heatmaps
 
-Author: Wajeeha Khan
-Institution: Tilburg University — MSc Data Science & Society 2026
 """
 
 import os
