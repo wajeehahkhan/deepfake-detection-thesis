@@ -35,8 +35,6 @@ Prerequisites:
 Outputs:
     - ~/results/both_models_utk_results.csv — per-image predictions + demographics
 
-Author: Wajeeha Khan
-Institution: Tilburg University — MSc Data Science & Society 2026
 """
 
 import os
