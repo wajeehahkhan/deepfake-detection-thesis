@@ -25,8 +25,7 @@ Prerequisites:
 Outputs:
     - ~/results/combined_roc_curve.png
 
-Author: Wajeeha Khan
-Institution: Tilburg University — MSc Data Science & Society 2026
+
 """
 
 import os
