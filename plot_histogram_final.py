@@ -29,8 +29,7 @@ Prerequisites:
 Outputs:
     - ~/results/age_distribution_histogram.png
 
-Author: Wajeeha Khan
-Institution: Tilburg University — MSc Data Science & Society 2026
+
 """
 
 import os
