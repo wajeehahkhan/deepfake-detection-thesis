@@ -8,11 +8,11 @@ blocks + classifier head.
 Motivation:
     Full fine-tuning of XceptionNet led to model collapse (see thesis_train.py).
     This experiment tests whether restricting trainable parameters affects
-    EfficientNet-B4 similarly or differently — addressing the question of
+    EfficientNet-B4 similarly or differently addresses the question of
     whether catastrophic forgetting is architecture-specific.
 
 Frozen layers strategy:
-    - ALL layers frozen except: blocks.5, blocks.6, conv_head, bn2, classifier
+    - ALL layers frozen except: blocks 5, blocks.6, conv_head, bn2, classifier
     - This leaves 79.4% of parameters trainable (13.9M / 17.6M)
     - Early layers retain ImageNet feature representations
     - Only task-specific higher-level features are adapted
@@ -24,8 +24,7 @@ Outputs:
     - ./results/frozen_layers_results.csv   — val metrics per epoch + test results
     - ./checkpoints/efficientnet_frozen_best.pth — best model checkpoint
 
-Author: Wajeeha Khan
-Institution: Tilburg University — MSc Data Science & Society 2026
+
 """
 
 import os
