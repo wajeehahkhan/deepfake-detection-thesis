@@ -40,8 +40,7 @@ Usage:
 Outputs:
     - ~/results/deepface_utk_validation.csv — per-image predictions vs ground truth
 
-Author: Wajeeha Khan
-Institution: Tilburg University — MSc Data Science & Society 2026
+
 """
 
 import os
