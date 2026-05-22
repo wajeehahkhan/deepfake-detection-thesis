@@ -12,8 +12,8 @@ What is Grad-CAM?
     decision — making the "black box" CNN interpretable.
 
     For deepfake detection, Grad-CAM reveals:
-    - True Positives: which GAN artifacts the model detected (e.g. jawline, hairline)
-    - False Negatives: why subtle deepfakes were missed (e.g. spatial distraction)
+    - True Positives: which GAN artifacts the model detected (e.g., jawline, hairline)
+    - False Negatives: why subtle deepfakes were missed (e.g., spatial distraction)
     - False Positives: why real faces were incorrectly flagged
 
 Categories analysed (5 examples each):
@@ -47,8 +47,6 @@ References:
     Selvaraju et al. (2017). Grad-CAM: Visual Explanations from Deep Networks
     via Gradient-based Localization. ICCV.
 
-Author: Wajeeha Khan
-Institution: Tilburg University — MSc Data Science & Society 2026
 """
 
 import os
