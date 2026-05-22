@@ -31,8 +31,7 @@ Outputs:
     - ./results/frozen_layers_xception_results.csv — val metrics + test results
     - ./checkpoints/xception_frozen_best.pth       — best model checkpoint
 
-Author: Wajeeha Khan
-Institution: Tilburg University — MSc Data Science & Society 2026
+
 """
 
 import os
