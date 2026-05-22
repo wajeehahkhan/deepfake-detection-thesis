@@ -27,8 +27,6 @@ Prerequisites:
 Outputs:
     - ~/results/pixel_intensity_plot.png
 
-Author: Wajeeha Khan
-Institution: Tilburg University — MSc Data Science & Society 2026
 """
 
 import os
